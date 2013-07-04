@@ -1,5 +1,5 @@
 <?php  
-require_once("func.inc.php");
+	require_once("func.inc.php");
 	
 	if (isset($_POST['url_php'])){ /* Get data from index.php */
 		$url = trim($_POST['url_php']); /* Delete before and after blanks in the text */
