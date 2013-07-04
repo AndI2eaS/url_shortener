@@ -1,4 +1,4 @@
-<?php
+<?php 
   require_once("func.inc.php");
 	
 	if(isset($_GET['code']) && !empty($_GET['code'])){ 
